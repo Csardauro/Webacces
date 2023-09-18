@@ -75,32 +75,43 @@
     display: flex;
     align-items: center;
   }
+  
   @media (max-width: 767px) {
     .landing-page header .links {
       text-align: center;
       gap: 10px;
     }
   }
-  .landing-page header .links li {
+  
+  .landing-page header .links a {
     margin-left: 30px;
     color: #5d5d5d;
     cursor: pointer;
+    text-decoration: none; /* Agregado para quitar la subrayado predeterminado de los enlaces */
     transition: .3s;
   }
+  
+  /* Agrega efecto hover a los elementos <a> */
+  .landing-page header .links a:hover {
+    color: rgb(66, 139, 236);
+  }
+  
   @media (max-width: 767px) {
-    .landing-page header .links li {
+    .landing-page header .links a {
       margin-left: auto;
     }
   }
+  
   .landing-page header .links li:last-child {
     border-radius: 20px;
     padding: 10px 20px;
     color: #FFF;
-    background-color: rgb(66, 139, 236)
+    background-color: rgb(66, 139, 236);
   }
-  .landing-page header .links li:not(:last-child):hover {
-    color: #6c63ff;
-  }
+  
+  
+
+
   .landing-page .content .container {
     display: flex;
     align-items: center;
