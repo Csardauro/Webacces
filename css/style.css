@@ -243,21 +243,8 @@
     }
     
      
-/* Estilos generales del pie de página */
-footer {
-  
-  color:  rgb(0, 0, 0);;
-  padding: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
-/* Estilos de las columnas del pie de página */
-.footer-column {
-  flex: 1;
-  margin: 10px;
-}
+
 
 /* Estilos para el formulario de registro */
 form {
